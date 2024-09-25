@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   tarefas = [
-    { descricao: 'Estudar para ac1', concluida: false },
-    { descricao: 'Compra mandicoca', concluida: true },
+    { descricao: 'Estudar Angular', concluida: false },
+    { descricao: 'Fazer compras', concluida: true },
     { descricao: 'Limpar a casa', concluida: false },
     { descricao: 'Finalizar projeto', concluida: true },
-    { descricao: 'Dormir cedo', concluida: false }
+    { descricao: 'Assistir aula', concluida: false }
   ];
 
   alternarConclusao(tarefa: any) {
